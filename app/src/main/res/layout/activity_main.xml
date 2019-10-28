@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- First part -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="6"
+     android:background="#FFF"
+     android:layout_margin="5dp">
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@mipmap/headphones"
+         android:layout_margin="30dp">
+
+     </ImageView>
+
+ </LinearLayout>
+
+
+    <!-- 2nd part -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:text="Wireless Bluetooth Stereo Headphone"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textAlignment="textStart"
+        android:textColor="#000">
+
+    </TextView>
+
+    <!-- 3rd part -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="$249.99"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="$444.99"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textAlignment="textStart"
+            android:textColor="#B97C7C">
+
+        </TextView>
+
+
+        <RatingBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:rating="3"
+            android:numStars="5"
+            >
+
+        </RatingBar>
+
+
+    </LinearLayout>
+
+
+    <!-- 4th part -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="temp price cut"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textAlignment="textStart">
+
+    </TextView>
+
+    <!-- 5th part -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+        <!-- 5th part 1-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+           >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/cart"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:text="add to cart"
+                android:gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".75"
+                android:text="ship free"
+                android:gravity="top"
+                android:textSize="10dp"
+                android:textColor="#000"
+               android:textAlignment="center">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- 5th part 2-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/stores"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="not sold in the store"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <!-- 5th part 3-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:src="@mipmap/addlist"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="add to list"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
